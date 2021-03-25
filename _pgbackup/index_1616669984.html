@@ -13,32 +13,49 @@
         <!-- Custom styles for this template -->         
         <link href="style.css" rel="stylesheet"> 
         <link rel="stylesheet" href="../../blocks.css"> 
-    </head> 
-       
+    </head>     
     <body class="text-secondary"> 
         <nav class="border border-left-0 border-right-0 border-top-0 fixed-top navbar navbar-expand-lg navbar-light pb-lg-0 pt-lg-0"> 
             <div class="container"> 
                 <img src="assets/icon/school-logo.png" class="school-logo">
-                <a class="font-weight-bold navbar-brand" href="#">School Name</a>                 
+                <a class="font-weight-bold navbar-brand" href="#">School Name</a>
+                <ul class="align-items-lg-center flex-row ml-auto mr-2 mr-lg-0 navbar-nav order-lg-2"> 
+                    <li class="nav-item"> 
+                        <a class="btn btn-dark pl-4 pr-4 rounded-pill" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em" class="mr-2"> 
+                                <g> 
+                                    <path fill="none" d="M0 0h24v24H0z"/> 
+                                    <path d="M11 11V7h2v4h4v2h-4v4h-2v-4H7v-2h4zm1 11C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"/> 
+                                </g>                                 
+                            </svg><span class="align-middle">Add Lisitng</span></a> 
+                    </li>                     
+                    <li class="ml-2 nav-item"> 
+                        <a class="btn btn-dark  p-2 rounded-pill" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em" class="d-block"> 
+                                <g> 
+                                    <path fill="none" d="M0 0h24v24H0z"></path>                                     
+                                    <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>                                     
+                                </g>                                 
+                            </svg></a> 
+                    </li>                     
+                </ul>                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3" aria-controls="navbarNavDropdown-3" aria-expanded="false" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span> 
                 </button>                 
                 <div class="collapse navbar-collapse " id="navbarNavDropdown-3"> 
                     <ul class="navbar-nav "> 
                         <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Home</a> 
+                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Exploer</a> 
                         </li>                         
                         <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">About Us</a> 
+                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Featured</a> 
                         </li>                         
                         <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Testimonies</a> 
+                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Blog</a> 
                         </li>                         
                         <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Branches</a> 
+                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Help</a> 
                         </li>                         
                         <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Courses</a> 
+                            <a class="nav-link px-lg-3 py-lg-4 text-dark" href="#">Contact</a> 
                         </li>                         
                     </ul>                     
                     <ul class="align-items-lg-center ml-auto navbar-nav"> 
@@ -54,21 +71,27 @@
                 </div>                 
             </div>             
         </nav>         
-        <section class="background-cover bg-dark  pb-5 position-relative pt-5 text-white"> 
+        <section class="background-cover bg-dark  pb-5 position-relative pt-5 text-white" style="background-image:url('https://images.unsplash.com/photo-1533130061792-64b345e4a833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDkyMnwwfDF8c2VhcmNofDY2fHxtdXN0YW5nJTIwbmVwYWx8ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=1080');"> 
             <div class="container mt-5  pb-5 pt-5"> 
                 <div class="pb-5 pt-5 row"> 
                     <div class="col-lg-7 col-xl-6 pb-5 pt-5"> 
-                        <h1 class="display-3">내 페이지에 오신 것을 환영합니다</h1>
+                        <h1 class="display-3 font-weight-normal ">Discover Great Places Always</h1> 
+                        <p class="lead mb-5">Find out the perfect places that your are looking for.</p> 
                         <form role="form"> 
-                            <div class="search-div"> 
+                            <div class="form-row "> 
                                 <div class="col-sm form-group"> 
                                     <input type="text" class="form-control form-control-lg pl-4 pr-4 rounded-pill" placeholder="What are you looking for?"> 
                                 </div>                                 
                                 <div class="col-sm-auto form-group text-right"> 
-                                    <button type="submit" class="btn btn-lg pl-4 pr-4 rounded-pill"> 
-                                        <img class="search-icon" src="assets/icon/search.png">
+                                    <button type="submit" class="btn btn-danger btn-lg pl-4 pr-4 rounded-pill"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em" class="mr-1"> 
+                                            <g> 
+                                                <path fill="none" d="M0 0h24v24H0z"></path>                                                 
+                                                <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>                                                 
+                                            </g>                                             
+                                        </svg>                                         
                                         <span class="align-middle">Search</span>&nbsp;
-                                    </button>                                  
+                                    </button>                                     
                                 </div>                                 
                             </div>                             
                         </form>                         
@@ -78,69 +101,66 @@
         </section>         
         <section class="mt-n5 pb-3 position-relative text-center"> 
             <div class="container "> 
-                
-                    <div class="customCard p-4 rounded-lg shadow-sm"> 
-                        <div class="justify-content-center no-gutters row"> 
-                            <div class="col-4 col-lg-2"> 
-                                <a class="customCard d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> 
-                                    <img src="assets/icon/facility.png">
-                                    <h6 class="font-weight-normal mb-1">Facilities</h6>
-                                </a>
-                            </div>
-
-                            <div class="col-4 col-lg-2"> 
-                                <a class="customCard d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> 
-                                    <img src="assets/icon/student.png">
-                                    <h6 class="font-weight-normal mb-1">Student Stories</h6>
-                                </a> 
-                            </div>
-                            
-                            <div class="col-4 col-lg-2"> 
-                                <a class="customCard d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> 
-                                    <img src="assets/icon/admin.png">
-                                    <h6 class="font-weight-normal mb-1">Admission</h6>
-                                </a> 
-                            </div>  
-
-                            <div class="col-4 col-lg-2"> 
-                                <a class="customCard d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> 
-                                    <img src="assets/icon/arts.png">
-                                    <h6 class="font-weight-normal mb-1">Arts</h6>
-                                </a> 
-                            </div> 
-
-                            <div class="col-4 col-lg-2"> 
-                                <a class="customCard d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> 
-                                    <img src="assets/icon/activity.png">
-                                    <h6 class="font-weight-normal mb-1">Activities</h6>
-                                </a> 
-                            </div>
-                            <div class="col-4 col-lg-2"> 
-                                <a class="customCard d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> 
-                                    <img src="assets/icon/service.png">
-                                    <h6 class="font-weight-normal mb-1">Services</h6>
-                                </a> 
-                            </div>  
-                        </div>                     
-                    </div> 
-                             
+                <div class="bg-white p-3 rounded-lg shadow-sm"> 
+                    <div class="justify-content-center no-gutters row"> 
+                        <div class="col-4 col-lg-2"> 
+                            <a class="bg-white d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="mb-3 text-danger"> 
+                                    <g> 
+                                        <path fill="none" d="M0 0h24v24H0z"/> 
+                                        <path d="M14.268 12.146l-.854.854 7.071 7.071-1.414 1.414L12 14.415l-7.071 7.07-1.414-1.414 9.339-9.339c-.588-1.457.02-3.555 1.62-5.157 1.953-1.952 4.644-2.427 6.011-1.06s.892 4.058-1.06 6.01c-1.602 1.602-3.7 2.21-5.157 1.621zM4.222 3.808l6.717 6.717-2.828 2.829-3.89-3.89a4 4 0 0 1 0-5.656zM18.01 9.11c1.258-1.257 1.517-2.726 1.061-3.182-.456-.456-1.925-.197-3.182 1.06-1.257 1.258-1.516 2.727-1.06 3.183.455.455 1.924.196 3.181-1.061z"/> 
+                                    </g>                                     
+                                </svg> <h6 class="font-weight-normal mb-1">Restaurants</h6> </a> 
+                        </div>                         
+                        <div class="col-4 col-lg-2"> 
+                            <a class="bg-white d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="mb-3 text-danger"> 
+                                    <g> 
+                                        <path fill="none" d="M0 0h24v24H0z"/> 
+                                        <path d="M22 11v9h-2v-3H4v3H2V4h2v10h8V7h6a4 4 0 0 1 4 4zm-2 3v-3a2 2 0 0 0-2-2h-4v5h6zM8 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/> 
+                                    </g>                                     
+                                </svg> <h6 class="font-weight-normal mb-1">Hotels</h6> </a> 
+                        </div>                         
+                        <div class="col-4 col-lg-2"> 
+                            <a class="bg-white d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="mb-3 text-danger"> 
+                                    <g> 
+                                        <path fill="none" d="M0 0h24v24H0z"/> 
+                                        <path fill-rule="nonzero" d="M21 3a1 1 0 0 1 1 1v5.5a2.5 2.5 0 1 0 0 5V20a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-5.5a2.5 2.5 0 1 0 0-5V4a1 1 0 0 1 1-1h18zm-1 2H4v2.968l.156.081a4.5 4.5 0 0 1 2.34 3.74L6.5 12a4.499 4.499 0 0 1-2.344 3.95L4 16.032V19h16v-2.969l-.156-.08a4.5 4.5 0 0 1-2.34-3.74L17.5 12c0-1.704.947-3.187 2.344-3.95L20 7.967V5z"/> 
+                                    </g>                                     
+                                </svg> <h6 class="font-weight-normal mb-1">Art &amp; Culture</h6> </a> 
+                        </div>                         
+                        <div class="col-4 col-lg-2"> 
+                            <a class="bg-white d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="mb-3 text-danger"> 
+                                    <g> 
+                                        <path fill="none" d="M0 0h24v24H0z"/> 
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/> 
+                                    </g>                                     
+                                </svg> <h6 class="font-weight-normal mb-1">Shopping</h6> </a> 
+                        </div>                         
+                        <div class="col-4 col-lg-2"> 
+                            <a class="bg-white d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="mb-3 text-danger"> 
+                                    <g> 
+                                        <path fill="none" d="M0 0H24V24H0z"/> 
+                                        <path d="M16 1c.552 0 1 .448 1 1v3h4c.552 0 1 .448 1 1v14c0 .552-.448 1-1 1H3c-.552 0-1-.448-1-1V6c0-.552.448-1 1-1h4V2c0-.552.448-1 1-1h8zm4 6H4v12h16V7zm-7 2v3h3v2h-3.001L13 17h-2l-.001-3H8v-2h3V9h2zm2-6H9v2h6V3z"/> 
+                                    </g>                                     
+                                </svg> <h6 class="font-weight-normal mb-1">Medical</h6> </a> 
+                        </div>                         
+                        <div class="col-4 col-lg-2"> 
+                            <a class="bg-white d-block pb-4 pl-3 pr-3 pt-4 text-secondary" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="mb-3 text-danger"> 
+                                    <g> 
+                                        <path fill="none" d="M0 0h24v24H0z"/> 
+                                        <path fill-rule="nonzero" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm1.67 14h-3.34l-1.38 1.897.554 1.706A7.993 7.993 0 0 0 12 20c.871 0 1.71-.14 2.496-.397l.553-1.706L13.669 16zm-8.376-5.128l-1.292.937L4 12c0 1.73.549 3.331 1.482 4.64h1.91l1.323-1.82-1.028-3.17-2.393-.778zm13.412 0l-2.393.778-1.028 3.17 1.322 1.82h1.91A7.964 7.964 0 0 0 20 12l-.003-.19-1.291-.938zM12 9.536l-2.344 1.702.896 2.762h2.895l.896-2.762L12 9.536zm2.291-5.203L13 5.273V7.79l2.694 1.957 2.239-.727.554-1.703a8.014 8.014 0 0 0-4.196-2.984zm-4.583 0a8.014 8.014 0 0 0-4.195 2.985l.554 1.702 2.239.727L11 7.79V5.273l-1.292-.94z"/> 
+                                    </g>                                     
+                                </svg> <h6 class="font-weight-normal mb-1">Sports</h6> </a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
             </div>             
         </section>         
         <section class="pb-5 pt-5"> 
             <div class="container"> 
                 <div class="mb-4 text-center"> 
-                    <h2 class="text-dark">Missons</h2> 
-                    <p>Our mission is two fold: 
-                        <br>Strong commitment to ensure that each student  can learn the four basic skills in learning Korean Language such as Listening,Speaking,Reading and Writing.  
-                        <br>Dedication that together we put our efforts to enable our students fulfill their dreams to work in South Korea and become globally competitive Filipinos.
-                    </p> 
-                </div>
-                <div class="mb-4 text-center"> 
-                    <h2 class="text-dark">Vision</h2> 
-                    <p>Our mission is two fold: 
-                        To uplift the state of living of every student and that they may live harmoniously and financially secured while and after working abroad. To inspire all our students to reach their true potential and to act as responsible participants for the betterment of society both economically and  peacefully.
-                    </p> 
-                </div>            
+                    <h2 class="text-dark">Trending Places</h2> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod</p> 
+                </div>                 
                 <div class="justify-content-center row"> 
                     <div class="col-lg-4 col-md-6 pb-3 pt-3"> 
                         <div class="border"> 
